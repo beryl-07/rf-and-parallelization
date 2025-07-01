@@ -27,15 +27,7 @@ public:
      * @return Classe prédite
      */
     int predict(const std::vector<int>& x) const;
-    // /**
-    //  * Affiche l'arbre de décision dans la console après l'entraînement
-    //  */
-    // void draw_tree() const;
-    // /**
-    //  * Exporte l'arbre de décision au format DOT (Graphviz)
-    //  * @param filename Nom du fichier DOT à générer
-    //  */
-    // // void export_dot(const std::string& filename) const;
+
 private:
     /**
      * Structure représentant un noeud de l'arbre
@@ -86,20 +78,7 @@ private:
      * @return Classe prédite
      */
     int predict_node(const Node* node, const std::vector<int>& x) const;
-    // /**
-    //  * Affiche récursivement un noeud de l'arbre avec indentation
-    //  * @param node Noeud courant
-    //  * @param depth Profondeur d'affichage
-    //  */
-    // void draw_node(const Node* node, int depth) const;
-    // /**
-    //  * Écrit récursivement les nœuds et arêtes de l'arbre dans un flux DOT
-    //  * @param node Noeud courant
-    //  * @param out Flux de sortie
-    //  * @param node_id Identifiant du noeud courant
-    //  * @return Prochain identifiant disponible
-    //  */
-    // int write_dot(const Node* node, std::ostream& out, int node_id) const;
+    
 };
 
 #endif // DECISION_TREE_HPP
