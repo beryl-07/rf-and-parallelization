@@ -1,0 +1,19 @@
+digraph DecisionTree {
+  node0 [label="x3 == 0", shape=ellipse, style=filled, color=lightgray];
+  node0 -> node1 [label="Oui"];
+  node1 [label="Classe: 0", shape=box, style=filled, color=lightblue];
+  node0 -> node2 [label="Non"];
+  node3 [label="x4 == 0", shape=ellipse, style=filled, color=lightgray];
+  node3 -> node4 [label="Oui"];
+  node4 [label="Classe: 4", shape=box, style=filled, color=lightblue];
+  node3 -> node5 [label="Non"];
+  node6 [label="x1 == 0", shape=ellipse, style=filled, color=lightgray];
+  node6 -> node7 [label="Oui"];
+  node7 [label="Classe: 2", shape=box, style=filled, color=lightblue];
+  node6 -> node8 [label="Non"];
+  node9 [label="x2 == 0", shape=ellipse, style=filled, color=lightgray]}
+  node9 -> node10 [label="Oui"];
+  node10 [label="Classe: 6", shape=box, style=filled, color=lightblue];
+  node9 -> node11 [label="Non"];
+  node12 [label="Classe: 8", shape=box, style=filled, color=lightblue];
+}

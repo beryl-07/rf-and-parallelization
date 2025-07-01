@@ -1,0 +1,35 @@
+digraph DecisionTree {
+  node0 [label="x0 == 0", shape=ellipse, style=filled, color=lightgray];
+  node0 -> node1 [label="Oui"];
+  node1 [label="x1 == 0", shape=ellipse, style=filled, color=lightgray];
+  node1 -> node2 [label="Oui"];
+  node2 [label="Classe: 1", shape=box, style=filled, color=lightblue];
+  node1 -> node3 [label="Non"];
+  node4 [label="Classe: 4", shape=box, style=filled, color=lightblue];
+  node0 -> node5 [label="Non"];
+  node6 [label="x4 == 0", shape=ellipse, style=filled, color=lightgray];
+  node6 -> node7 [label="Oui"];
+  node7 [label="x3 == 0", shape=ellipse, style=filled, color=lightgray];
+  node7 -> node8 [label="Oui"];
+  node8 [label="Classe: 7", shape=box, style=filled, color=lightblue];
+  node7 -> node9 [label="Non"];
+  node10 [label="x1 == 0", shape=ellipse, style=filled, color=lightgray];
+  node10 -> node11 [label="Oui"];
+  node11 [label="Classe: 3", shape=box, style=filled, color=lightblue];
+  node10 -> node12 [label="Non"];
+  node13 [label="Classe: 5", shape=box, style=filled, color=lightblue];
+  node6 -> node14 [label="Non"];
+  node15 [label="x2 == 0", shape=ellipse, style=filled, color=lightgray];
+  node15 -> node16 [label="Oui"];
+  node16 [label="Classe: 6", shape=box, style=filled, color=lightblue];
+  node15 -> node17 [label="Non"];
+  node18 [label="x1 == 0", shape=ellipse, style=filled, color=lightgray];
+  node18 -> node19 [label="Oui"];
+  node19 [label="Classe: 2", shape=box, style=filled, color=lightblue];
+  node18 -> node20 [label="Non"];
+  node21 [label="x3 == 0", shape=ellipse, style=filled, color=lightgray];
+  node21 -> node22 [label="Oui"];
+  node22 [label="Classe: 0", shape=box, style=filled, color=lightblue];
+  node21 -> node23 [label="Non"];
+  node24 [label="Classe: 8", shape=box, style=filled, color=lightblue];
+}
